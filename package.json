@@ -1,0 +1,21 @@
+{
+  "name": "games",
+  "version": "1.0.0",
+  "main": "app.js",
+  "repository": "https://github.com/shovity/games",
+  "author": "Huong Nguyen <shovity@gmail.com>",
+  "private": true,
+  "scripts": {
+    "start": "node app",
+    "dev": "nodemon app",
+    "client": "react-scripts start"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cookie-parser": "^1.4.3",
+    "cors": "^2.8.4",
+    "dotenv": "^4.0.0",
+    "express": "^4.16.2",
+    "socket.io": "^2.0.4"
+  }
+}
